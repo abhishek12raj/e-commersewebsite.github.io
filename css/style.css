@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.slogan {
+  text-indent: 4em;
+}
+.searchbar {
+  margin-left: 350px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-image: url(http://www.netthailand.com/images/slider/layerslider/ecommerce.jpg);
+}
+nav {
+  flex: 1;
+  text-align: center;
+}
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 20px;
+}
+nav ul li {
+  display: inline-block;
+  margin-left: 70px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+p {
+  color: #555;
+}
+ a:hover {
+
+            background-color: yellow;
+            
+        }
+body{
+  background-color: antiquewhite;
+}
+.footer{
+  background-color: deepskyblue;
+  color: red;
+}
